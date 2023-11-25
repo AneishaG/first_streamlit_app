@@ -41,4 +41,5 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # write your own comment - what does this do? changes the data frame to match what is actually chosen 
 streamlit.dataframe(fruityvice_normalized)
 
+import snowflake.connector
 
