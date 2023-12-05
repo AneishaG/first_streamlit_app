@@ -60,7 +60,6 @@ try:
 # write your own comment - what does this do? changes the data frame to match what is actually chosen 
 
 
-
 streamlit.header("The fruit load list contains:")
 #snowflake-related functions
 def get_fruit_load_list():
