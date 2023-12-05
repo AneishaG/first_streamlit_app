@@ -60,8 +60,7 @@ try:
 # write your own comment - what does this do? changes the data frame to match what is actually chosen 
 
 
-#not running any code past here while we trouble shoot 
-streamlit.stop()
+
 
 streamlit.header("The fruit load list contains:")
 #snowflake-related functions;
@@ -77,7 +76,8 @@ if streamlit.button('Get Fruit Load List'):
     streamlit.dataframe(my_data_rows)
 
 
-
+#not running any code past here while we trouble shoot 
+streamlit.stop()
 
 
 
